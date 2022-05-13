@@ -4,13 +4,11 @@ body {
 .dm-btn {
   border-radius: 1.25rem !important;
 }
-
-.main-header {
-  position: sticky;
-  top: 0;
-  width: 100%;
-}
-.receitas {
-  background-color: aqua;
-  height: 100vh;
+.container {
+  background-color: rgb(255, 236, 202);
+  width: 100vw;
+  justify-content: space-around;
+  flex-direction: row;
+  display: flex;
+  flex-wrap: wrap;
 }
