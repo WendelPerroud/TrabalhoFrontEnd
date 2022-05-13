@@ -2,12 +2,14 @@ const darkBtn = document.querySelector(".dark-btn")
 
 const darkMode = function () {
     const body = document.querySelector("body")
-    body.classList.toggle("body__dark")
     const header = document.querySelector(".main-header")
+    const textoSobre = document.querySelector(".sobre-desc")
+    const membros = document.querySelector(".btn")
+
+    body.classList.toggle("body__dark")
     header.classList.toggle("main-header__dark")
-    const container = document.querySelector(".container")
-    container.classList.toggle("container__dark")
-    console.log("botao funcionando")
+    textoSobre.classList.toggle("darkMode__letters")
+    membros.classList.toggle("darkMode__letters")
 }
 
 darkBtn.addEventListener("click", darkMode);

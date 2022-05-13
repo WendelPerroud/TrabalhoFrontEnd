@@ -15,3 +15,9 @@ body {
   display: flex;
   flex-wrap: wrap;
 }
+.main-header {
+  background-color: antiquewhite;
+}
+.main-header__dark {
+  background-color: #646464;
+}
