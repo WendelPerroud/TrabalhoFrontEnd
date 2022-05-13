@@ -1,16 +1,11 @@
-.h2, h2 {
-    font-size: calc(1.325rem + .9vw);
-    padding-left: 2rem;
-    padding-top: 2rem;
-    
-  }
-  h3 {
-    font-size: 25px;
-    padding-left: 2rem;
-    padding-right: 2rem;
-  }
-  
-  .darkMode__letters {
-    color: white;
-  }
-
+.h2,
+h2 {
+  font-size: calc(1.325rem + 0.9vw);
+  padding-left: 2rem;
+  padding-top: 2rem;
+}
+h3 {
+  font-size: 25px;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}

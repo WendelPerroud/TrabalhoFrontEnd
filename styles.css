@@ -4,6 +4,9 @@ body {
 .body__dark {
   background-color: rgb(59, 59, 59);
 }
+.darkMode__letters {
+  color: white !important;
+}
 .dm-btn {
   border-radius: 1.25rem;
 }
@@ -15,9 +18,44 @@ body {
   display: flex;
   flex-wrap: wrap;
 }
+.container__dark {
+  background-color: #262525;
+}
 .main-header {
-  background-color: antiquewhite;
+  background-color: #f8f9fa;
 }
 .main-header__dark {
   background-color: #646464;
+}
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 2rem;
+}
+.card__dark {
+  background-color: #373636;
+}
+.card-img,
+.card-img-top {
+  border-top-left-radius: calc(1.25rem - 1px);
+  border-top-right-radius: calc(1.25rem - 1px);
+}
+.btn {
+  border-radius: 1.25rem;
+}
+
+footer div {
+  background-color: #f8f9fa;
+}
+
+.footer__dark {
+  background-color: #686868;
 }
