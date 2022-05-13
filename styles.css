@@ -21,9 +21,10 @@ body {
   background-color: #fff;
   background-clip: border-box;
   margin-top: 10px;
-  margin-bottom: 10px;
+  margin-bottom: 23px;
   border: 1px solid rgba(0,0,0,.125);
   border-radius: 2rem;
+  box-shadow: 2.5px 5px 6px black;
 }
 .card-img, .card-img-top {
   border-top-left-radius: calc(1.25rem - 1px);
