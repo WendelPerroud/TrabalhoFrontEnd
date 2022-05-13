@@ -2,13 +2,5 @@ body {
   background-color: rgb(207, 201, 195);
 }
 .dm-btn {
-  border-radius: 1.25rem !important;
-}
-.container {
-  background-color: rgb(255, 236, 202);
-  width: 100vw;
-  justify-content: space-around;
-  flex-direction: row;
-  display: flex;
-  flex-wrap: wrap;
+  border-radius: 1.25rem;
 }
