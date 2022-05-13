@@ -1,6 +1,16 @@
-body{
-    background-color: rgb(207, 201, 195);
+body {
+  background-color: rgb(207, 201, 195);
 }
-.dm-btn{
-    border-radius: 1.25rem!important;
+.dm-btn {
+  border-radius: 1.25rem !important;
+}
+
+.main-header {
+  position: sticky;
+  top: 0;
+  width: 100%;
+}
+.receitas {
+  background-color: aqua;
+  height: 100vh;
 }
