@@ -1,10 +1,4 @@
-body {
-  background-color: rgb(207, 201, 195);
-}
-.dm-btn {
-  border-radius: 1.25rem;
-}
-.row-cols-md-3>* {
+.row-cols-md-3 {
   flex: 0 0 auto;
   width: 33.3333333333%;
   margin-top: 40px;
