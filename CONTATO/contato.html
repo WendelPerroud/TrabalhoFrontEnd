@@ -13,11 +13,11 @@
     <link rel="stylesheet" href="../styles.css">
     <link rel="stylesheet" href="./contato.css">        
     <title>Yummy!</title>
-    <script src="/js/main.js" defer></script>
+    <script src="contato.js" defer></script>
   </head>
   <body>
     <header class="main-header">
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container-fluid">
           <a class="navbar-brand" href="../index.html">
             <img
@@ -30,7 +30,7 @@
             <div class="navbar-nav">
               <a class="nav-link" href="../SOBRE/sobre.html">SOBRE</a>
               <a class="nav-link" href="../CONTATO/contato.html">CONTATO</a>
-              <button type="button dm-btn">Modo escuro</button>
+              <button class="dark-btn" type="button dm-btn">Modo escuro</button>
             </div>
           </div>
         </div>
@@ -39,60 +39,59 @@
       <div class="container">
         <div class="row row-cols-1 row-cols-md-3 g-4">
           <div class="col">
-            <div class="card h-95">
+            <div class="card h-95" id="cardcontato">
               <img src="../images/boneco.png" class="card-img-top" alt="...">
                 <div class="card-body">
-                  <h5 class="card-title">Diogo</h5>
-                  <p class="card-text">email: <a href="https://outlook.live.com/"><buttontype="button" class="btn btn-link">exem@.com</button></a></p>
-                    <p>Telefone: (00)0 0000-0000</p>
+                  <h5 class="card-title">Diogo Pereira</h5>
+                  <p class="card-text">email: <a href="https://outlook.live.com/"><buttontype="button" class="btn btn-link">dipereira@yummy.com</button></a></p>
+                    <p class="card-text1">Telefone: (XX)9 9740-0025</p>
                   </div>
                 </div>
               </div>
               <div class="col">
-                <div class="card h-95">
+                <div class="card h-95" id="cardcontato">
                   <img src="../images/boneco.png" class="card-img-top" alt="...">
                   <div class="card-body">
                     <h5 class="card-title">Lucas Erler</h5>
-                    <p class="card-text">email: <a href="https://outlook.live.com/"><buttontype="button" class="btn btn-link">exem@.com</button></a></p>
-                    <p>Telefone: (00)0 0000-0000</p>
+                    <p class="card-text">email: <a href="https://outlook.live.com/"><buttontype="button" class="btn btn-link">lucaserler@yummy.com</button></a></p>
+                    <p class="card-text1">Telefone: (XX)9 9863-3330</p>
                   </div>
                 </div>
               </div>
               <div class="col">
-                <div class="card h-95">
+                <div class="card h-95" id="cardcontato">
                   <img src="../images/boneco.png" class="card-img-top" alt="...">
                   <div class="card-body">
                     <h5 class="card-title">Matheus Valle</h5>
-                    <p class="card-text">email: <a href="https://outlook.live.com/"><buttontype="button" class="btn btn-link">exem@.com</button></a></p>
-                    <p>Telefone: (00)0 0000-0000</p>
+                    <p class="card-text">email: <a href="https://outlook.live.com/"><buttontype="button" class="btn btn-link">mattvalle@yummy.com</button></a></p>
+                    <p class="card-text1">Telefone: (XX)9 9856-2800</p>
                   </div>
                 </div>
               </div>
               <div class="col">
-                <div class="card h-95">
+                <div class="card h-95" id="cardcontato">
                   <img src="../images/boneco.png" class="card-img-top" alt="...">
                   <div class="card-body">
-                    <h5 class="card-title">Paulo Vitor</h5>
-                    <p class="card-text">email: <a href="https://outlook.live.com/"><buttontype="button" class="btn btn-link">exem@.com</button></a></p>
-                    <p>Telefone: (00)0 0000-0000</p>
+                    <h5 class="card-title">Paulo Vitor Martins</h5>
+                    <p class="card-text">email: <a href="https://outlook.live.com/"><buttontype="button" class="btn btn-link">pvp@yummy.com</button></a></p>
+                    <p class="card-text1">Telefone: (XX)9 3025-8504</p>
                   </div>
                 </div>
               </div>
               <div class="col">
-                  <div class="card h-95">
+                  <div class="card h-95" id="cardcontato">
                     <img src="../images/boneco.png" class="card-img-top" alt="...">
                     <div class="card-body">
-                      <h5 class="card-title">Wendel</h5>
-                      <p class="card-text">email: <a href="https://outlook.live.com/"><buttontype="button" class="btn btn-link">exem@.com</button></a></p>
-                      <p>Telefone: (00)0 0000-0000</p>
+                      <h5 class="card-title">Wendel Perroud</h5>
+                      <p class="card-text">email: <a href="https://outlook.live.com/"><buttontype="button" class="btn btn-link">perroud@yummy.com</button></a></p>
+                      <p class="card-text1">Telefone: (XX)9 9600-0520</p>
                     </div>
                   </div>
                 </div>
             </div>
       </div>
-      <br>
-    <footer class="bg-light text-center text-lg-start" >
-        <div class="text-center p-3" style="background-color: #f8f9fa;">
+    <footer class="text-center text-lg-start" >
+        <div class="text-center p-3">
           © 2020 Copyright:
           <a class="navbar-brand" href="#">
             <img
