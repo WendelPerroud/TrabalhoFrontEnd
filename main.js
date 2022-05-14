@@ -6,8 +6,9 @@ const darkMode = function () {
   const navLinks = document.querySelectorAll(".nav-link");
   const container = document.querySelector(".container");
   const cards = document.querySelectorAll(".card");
+  const cardsTexto1 = document.querySelectorAll(".card-text1");
   const cardsTexto = document.querySelectorAll(".card-text");
-  const cardsTitle = document.querySelectorAll(".card-title");
+  const cardsTitle = document.querySelectorAll(".card-title");  
   const footer = document.querySelector("footer div");
 
   body.classList.toggle("body__dark");
@@ -15,6 +16,7 @@ const darkMode = function () {
   container.classList.toggle("container__dark");
   navLinks.forEach((navLink) => toggleClass(navLink, "darkMode__letters"));
   cards.forEach((card) => toggleClass(card, "card__dark"));
+  cardsTexto1.forEach((card) => toggleClass(card, "darkMode__letters"));
   cardsTexto.forEach((card) => toggleClass(card, "darkMode__letters"));
   cardsTitle.forEach((cardTitle) =>
     toggleClass(cardTitle, "darkMode__letters")
